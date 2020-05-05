@@ -1,4 +1,4 @@
-# hardware/postfixadmin
+# mxserver/postfixadmin
 
 ![postfixadmin](http://i.imgur.com/UCtvKHR.png "postfixadmin")
 
@@ -59,10 +59,10 @@ postfixadmin:
 
 ```yml
 # Full example :
-# https://github.com/hardware/mailserver/blob/master/docker-compose.sample.yml
+# https://github.com/mxserver/mailserver/blob/master/docker-compose.sample.yml
 
 postfixadmin:
-  image: hardware/postfixadmin
+  image: mxserver/postfixadmin
   container_name: postfixadmin
   domainname: domain.tld
   hostname: mail
@@ -75,4 +75,4 @@ postfixadmin:
 
 ### How to setup
 
-https://github.com/hardware/mailserver/wiki/Postfixadmin-initial-configuration
+https://github.com/mxserver/mailserver/wiki/Postfixadmin-initial-configuration
