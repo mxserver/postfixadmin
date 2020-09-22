@@ -8,7 +8,7 @@ ARG FULLVERSION=3.2.4
 
 ARG SHA256_HASH="6d5b27012ce18b6dd257eb690d7d124781cf9ab44209511d49efb9ccd6ea27f1"
 
-RUN echo "@community https://nl.alpinelinux.org/alpine/v3.11/community" >> /etc/apk/repositories \
+RUN echo "@community https://nl.alpinelinux.org/alpine/v3.12/community" >> /etc/apk/repositories \
  && apk -U upgrade \
  && apk add -t build-dependencies \
     ca-certificates \
